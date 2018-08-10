@@ -1,0 +1,30 @@
+h3 {
+	color: blue;
+}
+
+p {
+	font-size: 24pt;
+}
+
+.article, #atid {
+	color: green;
+}
+
+/* #atid {
+	color: pink;
+} */
+
+h3:hover {
+	color: red;
+	background: #F2F5A9;
+	width: 200pt;
+}
+
+h3:active {
+	color: pink;
+}
+h5{
+	font-size:100px;
+	color:#B5B2FF;
+	text-shadow: 5px 5px #6798FD , 10px 10px #5CD1E5;
+}

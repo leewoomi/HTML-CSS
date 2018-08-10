@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>XML</title>
+
+<style>
+/*  data 태그를 table 태그로 변환 */
+data{display:table;
+	border-collapse : separate;
+}
+
+/* tr 태그로 변환 */
+person{display:table-row-group;}
+/*td 태그로 변환 */
+name, age {
+	display : table-cell; 
+	border: 1px solid black;
+	padding: 5px;
+	margin:10px;
+}
+
+</style>
+</head>
+<body>
+	<data>
+	 <person>
+	 	 <name>아이유</name> 
+	 	 <age>26</age> 
+	  </person>
+	  
+	  <person>
+		<name>아이린</name>
+	 	<age>30</age>
+	  </person> 
+	  
+	  <person>
+	   	<name>수지</name> 
+	   	<age>29</age>
+	  </person>
+	
+	 </data>
+</body>
+</html>
