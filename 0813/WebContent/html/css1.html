@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+p {
+	width: 200px;
+	background: #fdd;
+	border: 2px solid #123456;
+	outline: 2px solid #ffaa00;
+	outline-offset: 3px;
+	resize: both;
+	overflow: auto;
+}
+
+.hi {
+	height: 100px;
+	border: 2px dotted #123456;
+	resize: horizontal;
+	overflow: scroll;
+}
+
+#hi {
+	width: 10px;
+	height: 20px;
+	resize: vertical;
+	overflow: hidden;
+}
+
+div {
+	width: 200px;
+	height: 100px;
+	background-color: #F977;
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-treansform: rotate(30deg);
+	
+	-webkit-transition : all 3.0s;
+	
+}
+div:hover{
+
+-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-treansform: rotate(360deg);
+
+}
+a { /*주위에 아무것도 배치되지 않도록 블록 요소를 변경*/
+	display: block;
+	width: 300px;
+	height: 30px;
+	background: #123456;
+	
+	-webkit-transition : all 3.0s;
+}
+
+a:hover{
+
+width:450px;
+background-color:skyblue;
+color: white;
+-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-treansform: rotate(360deg);
+}
+
+</style>
+</head>
+<body>
+	<h1 class="hi">CSS - resize 와 outline</h1>
+	<p class="hi">늘 바쁜 시간 속에 그댄 어떤가요 길을 잃고 헤메이진 않나요 I'm dreaming
+		forever 한심한 그 모습에 또 지쳐있겠죠 힘이 들땐 내 손을 잡아요 I can fly 빛나던 그 꿈들이 하나둘 지는걸
+		보며 알 수는 없지만 두려워 말아요 익숙한 그 목소리 혼자라 생각 들때 내 어깰 감싸주던 따뜻한 그 목소리 누구에게도 못한
+		니말 내가 들어 줄게 잠시 기대도 돼 그대 곁에 내가 있을게 모든게 그대 마음 처럼 쉽진 않겠지만 기억해 모아왔던 아픔이 다른
+		행복을 만든다는 말 힘이 들땐 imagine it 기분 좋게 다 내려 놓을 때 때론 뒤쳐지든 앞서든 걱정마 난 언제나 그대
+		곁에 하루하루가 기적과 같아요 그대 곁에 머무는 매 순간 순간이 늘 달콤한 속삭임만 주고파 이 설렘과 시간이 흘러 그대와 나
+		서로가 익숙해져도 지금 이 멜로디를 잊지마 I can fly 빛나던 그 꿈들이 하나 둘 지는걸 보며 알 수는 없지만 두려워
+		말아요 익숙한 그 목소리 혼자라 생각 들 때 내 어깰 감싸주던 따뜻한 그 목소리 누구에게도 못한 니 말 내가 들어 줄게 잠시
+		기대도 돼 그대 곁에 내가 있을게 힘들땐 내 어깨에 기대 내가 널 지켜 줄게 I care about you 꽉 잡은 너의 두손
+		놓지 않을게 익숙한 그 목소리 익숙한 그 목소리 혼자라 생각 들 때 내 어깰 감싸주던 따뜻한 그 목소리 누구에게도 못한 니말
+		내가 들어 줄게 잠시 기대도 돼 그대 곁에 내가 있을게 Whenever you need it I can lend you my
+		shoulder 영원히 어떤 일이 있어도 내가 옆에 있을게 Don’t worry You can cry, You can
+		whine, 뭐든지 다 들어줄게 I'll be by your side day and night 언제든지 네 곁에</p>
+	<p>안녕하세요.</p>
+	<p id="hi">안녕하세요.</p>
+	<div></div>
+
+
+	<a href="#">애니메이션 메뉴</a>
+</body>
+</html>
