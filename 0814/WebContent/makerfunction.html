@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+var input = prompt("이름을 입력하세요.");
+document.writeln("<br /> 이름 : " + input);
+
+var url =  "http://www.daum.net?name=관리자";
+
+document.writeln("<br /> url : " + url);
+
+document.writeln("<br /> encodeURIComponent : " + encodeURIComponent(url));
+
+document.writeln("<br /> escape: " + escape(url));
+
+document.writeln("<br /> encodeURI  : " + encodeURI(url));
+
+</script>
+</html>
